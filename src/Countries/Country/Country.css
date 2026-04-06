@@ -4,3 +4,29 @@
     padding: 20px;
     border-radius: 20px;
 }
+
+.btn-pressed {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    
+}
+.btn-pressed:hover {
+    background-color: #2980b9;
+}
+
+.btn-pressed:active {
+    transform: translateY(2px);
+
+    box-shadow: 0 2px #2980b9;
+    
+}
+
+.country-visited{
+    background-color: burlywood;
+}
